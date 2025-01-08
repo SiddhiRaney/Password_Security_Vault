@@ -17,7 +17,7 @@ bcrypt = Bcrypt(app)
 # Configure MySQL
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'siddhi1234'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'password_vault'
 
 # Initialize MySQL
@@ -26,7 +26,7 @@ mysql = MySQL(app)
 # Set secret key for session
 
 
-app.secret_key = 'siddhi1234'
+app.secret_key = ''
 
 
 #---------------------------------------------------------------------------------------------------------------
