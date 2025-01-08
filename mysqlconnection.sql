@@ -39,8 +39,8 @@ CREATE TABLE login_history (
 
 
 
-DELETE FROM hints WHERE id > 0;
-SET sql_safe_updates = 0;
+/*DELETE FROM hints WHERE id > 0;
+SET sql_safe_updates = 0;*/
 
 
 
